@@ -1231,39 +1231,7 @@
 <section class="cta" id="contacto">
     <span class="label label-light">¿Listo para empezar?</span>
     <h2>Únete como Partner<br>a Yango Venezuela</h2>
-    <p>Completa el formulario y nuestro equipo en Venezuela te contactará a la brevedad.</p>
-    <form class="cta-form" onsubmit="handleSubmit(event)">
-        <div class="form-row">
-            <input type="text" placeholder="Nombre completo *" required>
-            <input type="text" placeholder="Nombre de empresa / RIF">
-        </div>
-        <div class="form-row">
-            <input type="tel" placeholder="Teléfono / WhatsApp (+58) *" required>
-            <input type="email" placeholder="Correo electrónico *" required>
-        </div>
-        <select required>
-            <option value="">¿En qué ciudad operas? *</option>
-            <option>Caracas</option>
-            <option>Maracaibo</option>
-            <option>Valencia</option>
-            <option>Barquisimeto</option>
-            <option>Maracay</option>
-            <option>Maturín</option>
-            <option>Barcelona / Puerto La Cruz</option>
-            <option>San Cristóbal</option>
-            <option>Ciudad Bolívar</option>
-            <option>Otra ciudad</option>
-        </select>
-        <select>
-            <option value="">¿Cuántos vehículos tienes aproximadamente?</option>
-            <option>1 - 10 vehículos</option>
-            <option>11 - 30 vehículos</option>
-            <option>31 - 100 vehículos</option>
-            <option>Más de 100 vehículos</option>
-        </select>
-        <textarea placeholder="¿Tienes experiencia en el sector de transporte o flotas? Cuéntanos brevemente sobre tu negocio..."></textarea>
-        <button type="submit">Enviar solicitud →</button>
-    </form>
+    <p>Para más información escríbenos al <strong>yangovenezuela@gmail.com</strong>.</p>
 </section>
 
 <!-- FOOTER -->
@@ -1296,14 +1264,6 @@
                 card.style.display = 'none';
             }
         });
-    }
-
-    function handleSubmit(e) {
-        e.preventDefault();
-        const btn = e.target.querySelector('button');
-        btn.textContent = '✓ Solicitud enviada. ¡Te contactaremos pronto!';
-        btn.style.background = '#006600';
-        btn.disabled = true;
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(a => {
